@@ -7,7 +7,7 @@ class plgSystemZoearth_Iframe_Responsive extends JPlugin
 {
     function onAfterRender()
     {
-        $app =& JFactory::getApplication();
+        $app = JFactory::getApplication();
         if ($app->isSite())
         {
             $response = JResponse::getBody();
